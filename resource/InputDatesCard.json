@@ -1,0 +1,33 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Data de Entrada"
+        },
+        {
+            "type": "Input.Date",
+            "id": "checkin"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Data de Saída"
+        },
+        {
+            "type": "Input.Date",
+            "id": "checkout"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "OK",
+                    "id": "submitDates"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}
