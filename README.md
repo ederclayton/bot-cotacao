@@ -1,6 +1,6 @@
-# using adaptive cards sample
+# Bot to inform hotel LeCanton rate quotes
 
-Bot that informs LeCanton hotel rate quote when asked. User must inform checkin and checkout dates.
+Bot that informs LeCanton hotel rate quotes when asked. User must inform checkin and checkout dates.
 
 This bot has been created using [Bot Framework](https://dev.botframework.com).
 
